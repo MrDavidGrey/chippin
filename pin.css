@@ -1,0 +1,38 @@
+.paragraph-three, .paragraph-three a{
+    font-size: 13.5px !important;
+    color: #000;
+}
+.paragraph-three a{
+    text-decoration: underline !important;
+    padding-left: 1.5px;
+}
+.paragraph-three a:hover{
+    color: #000;
+}
+ #partitioned {
+    padding-left: 43px;
+    letter-spacing: 39px;
+    border: 0;
+    background-position: bottom;
+    background-size: 52px 1px;
+    background-repeat: repeat-x;
+    background-position-x: 118px;
+    width: 250px !important;
+    outline : none;
+    font-size: 24px;
+    font-weight: 700;
+    caret-color: transparent !important;
+    font-size: 20px !important;
+ }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #9900cc;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #9900cc;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #9900cc;
+}
